@@ -1,26 +1,42 @@
-.ui.menu.top-menu {
-  border: none; /*Remove Semantic UI's bottom border*/
+.ui.top-menu.menu {
+  border: none; /*Remove Semantic UI's bottom shadow border */
+  padding: 8px 15px;
 
-  .logo {
-    width: 17rem;
-  }
-
-  .header-icon {
-    color: #a0a0a0;
-  }
-
-  .nav-container {
-    justify-content: space-between; /*maximize whitespace between elements*/
-    flex-grow: 1;  /* take available space in the flex container */
+  div {
     padding: 0;
+  }
 
-    .search-input {
-      padding-left: 0;
-      width: 33%;
+  .left img {
+    width: 90px;
+  }
 
-      form {
-        width: 100%;
-      }
+  .center {
+    flex-grow: 1;
+    justify-content: center;
+    margin: 0px 10px;
+
+    .search {
+      flex-grow: 0.5;
+    }
+  }
+
+  .right {
+    gap: 10px;
+
+    .item {
+      min-width: 32px;
+      min-height: 32px;
+      align-content: center;
+      justify-content: center;
+    }
+
+    .header-icon {
+      color: #a0a0a0;
+      margin: 0px
+    }
+
+    .avatar {
+      margin: 0px;
     }
   }
 }
