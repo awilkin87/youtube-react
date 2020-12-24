@@ -1,0 +1,23 @@
+@import '../../styles/shared.scss';
+
+.sidebar-item {
+  i.icon {
+    margin-right: 15px;
+    color: #888888;
+  }
+
+  &.highlight {
+    span {
+      font-weight: 600;
+    }
+
+    i.icon {
+      color: red;
+    }
+  }
+}
+
+.sidebar-item-alignment-container {
+  display: flex;
+  align-items: center;
+}

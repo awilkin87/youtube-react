@@ -8,6 +8,7 @@ export default function HeaderNav() {
       <Menu.Item header className='left'>
         <Image src={logo} size='tiny' />
       </Menu.Item>
+
       <Menu.Item className='center'>
         <Form className='search'>
           <Form.Field>
@@ -15,6 +16,7 @@ export default function HeaderNav() {
           </Form.Field>
         </Form>
       </Menu.Item>
+      
       <Menu.Item position='right'>
         <Menu.Item>
           <Icon className='header-icon' name='video camera' size='large' />
