@@ -1,41 +1,52 @@
-import { Icon, Menu, Image } from 'semantic-ui-react';
 import PropType, { InferProps } from 'prop-types';
-import './Subscription.scss';
+import { Icon, Image } from 'semantic-ui-react';
+import SideBarClickableItem from '../SideBarClickableItem';
+import styles from './Subscription.module.scss';
 
-export type SidebarSubscriptionProps = InferProps<typeof Subscription.propTypes>;
+/** React props for a sidebar Subscription. */
+export type SidebarSubscriptionProps = InferProps<typeof propTypes>;
 
-function Subscription(props: Readonly<SidebarSubscriptionProps>) {
+/** Clickable sidebar menu item for accessing and displaying information about a subscription. */
+const Subscription: React.FunctionComponent<Readonly<SidebarSubscriptionProps>> = function (props) {
   let rightElement;
   if (props.broadcasting) {
     rightElement = <Icon name='podcast' />;
   } else {
     const newVideoCount = props.newVideos || 0;
     if (newVideoCount > 0) {
-      rightElement = <span className='new-video-count'>{props.newVideos}</span>;
+      rightElement = <span className={styles.videoCount}>{props.newVideos}</span>;
     }
   }
 
   return (
-    <Menu.Item className='sidebar-clickable'>
-      <div className='subscription'>
-        <span className='subscription-left-container'>
+    <SideBarClickableItem>
+      <div className={styles.subscription}>
+        <span className={styles.leftContainer}>
           <Image avatar src='http://via.placeholder.com/28x28' />
-          <span className='subscription-name'>
+          <span className={styles.label}>
             {props.name}
           </span>
         </span>
         {rightElement}
       </div>
-    </Menu.Item>
+    </SideBarClickableItem>
   );
 }
 
-Subscription.propTypes = {
+const propTypes = {
+  /** Subscription channel name. */
   name: PropType.string.isRequired,
+  /** True if channel broadcasting live. */
   broadcasting: PropType.bool,
+  /** Number of new videos not yet watched. */
   newVideos: PropType.number
 }
 
+Subscription.propTypes = propTypes;
+
+export default Subscription;
+
+/** Mock subscription while building out the app. */
 export function MockSubscriptions() {
   return (
     <>
@@ -48,5 +59,3 @@ export function MockSubscriptions() {
     </>
   );
 }
-
-export default Subscription;

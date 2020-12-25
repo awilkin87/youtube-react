@@ -1,13 +1,14 @@
 import { Divider, Menu } from 'semantic-ui-react';
-import './SideBar.scss';
 import SideBarFooter from './SideBarFooter';
 import SideBarHeader from './SideBarHeader';
 import SideBarItem from './SideBarItem';
 import { MockSubscriptions } from './Subscriptions/Subscription';
+import styles from './SideBar.module.scss';
 
+/** Vertical sidebar menu. */
 export default function SideBar() {
   return (
-    <Menu borderless vertical stackable fixed='left' className='side-nav'>
+    <Menu borderless vertical stackable fixed='left' className={styles.sidebar}>
       <SideBarItem highlight label='Home' icon='home' />
       <SideBarItem label='Trending' icon='fire' />
       <SideBarItem label='Followers' icon='users' />

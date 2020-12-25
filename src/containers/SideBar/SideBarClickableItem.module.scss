@@ -1,0 +1,6 @@
+@use './styles.modules';
+
+// Global specificity is to override Semantic UI
+:global(.ui.vertical .item).clickable:hover {
+  background: styles.$hover-background;
+}

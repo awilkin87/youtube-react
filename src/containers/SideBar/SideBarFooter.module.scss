@@ -1,0 +1,7 @@
+@use './styles.modules';
+
+.footerBlock {
+  padding-bottom: 10px;
+  padding-left: 16px;
+  color: styles.$grey;
+}

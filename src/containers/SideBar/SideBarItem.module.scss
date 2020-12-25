@@ -1,0 +1,24 @@
+@use './styles.modules';
+
+.sidebarItem {
+  :global(i.icon) {
+    margin-right: 15px;
+    color: styles.$grey;
+  }
+
+  &.highlight {
+    span {
+      font-weight: 600;
+    }
+
+    // Icon class added by Semantic UI 
+    :global(i.icon) {
+      color: styles.$red;
+    }
+  }
+}
+
+.alignmentContainer {
+  display: flex;
+  align-items: center;
+}

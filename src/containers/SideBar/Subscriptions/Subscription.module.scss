@@ -1,28 +1,29 @@
-@import '../../../styles/shared.scss';
+@use '../styles.modules';
 
 .subscription {
   display: flex;
   justify-content: space-between;
   align-items: center;
 
-  .subscription-left-container {
+  .leftContainer {
     display: flex;
     align-items: center;
     overflow: hidden;
 
-    .subscription-name {
+    .label {
       overflow: hidden;
       white-space: nowrap;
       text-overflow: ellipsis;
     }
   }
 
-  i.icon {
-    color: $red;
+  // Icon class added by Semantic UI 
+  :global(i.icon) {
+    color: styles.$red;
     margin: 0;
   }
 
-  .new-video-count {
-    color: $grey;
+  .videoCount {
+    color: styles.$grey;
   }
 }

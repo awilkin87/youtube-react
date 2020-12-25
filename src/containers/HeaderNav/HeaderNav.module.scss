@@ -1,7 +1,6 @@
-@import '../../styles/shared.scss';
-
-.ui.top-menu.menu {
-  border: none; /*Remove Semantic UI's bottom shadow border */
+// Global specificity to override Semantic UI
+:global(.ui.menu).topMenu {
+  border: none; // Remove Semantic UI bottom shadow border
   padding: 8px 15px;
 
   div {
@@ -22,22 +21,25 @@
     }
   }
 
-  .right {
+  // Class added by Semantic UI 
+  :global(.right) {
     gap: 10px;
 
-    .item {
+    // Class added by Semantic UI 
+    :global(.item) {
       min-width: 32px;
       min-height: 32px;
       align-content: center;
       justify-content: center;
     }
 
-    .header-icon {
+    .headerIcon {
       color: #a0a0a0;
       margin: 0px
     }
 
-    .avatar {
+    // Class added by Semantic UI 
+    :global(.avatar) {
       margin: 0px;
     }
   }

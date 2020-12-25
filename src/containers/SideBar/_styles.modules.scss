@@ -1,0 +1,12 @@
+@use 'sass:color';
+
+// Common styles for sidebar components.
+
+$grey: #888888;
+$red: red;
+
+/** Backgound color for the overall sidebar. */
+$sidebar-background: #f5f5f5;
+
+/** Background color when hovering over clickable items. */
+$hover-background: color.adjust($sidebar-background, $lightness: -4%);
