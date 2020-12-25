@@ -1,7 +1,9 @@
 import { Divider, Menu } from 'semantic-ui-react';
 import './SideBar.scss';
+import SideBarFooter from './SideBarFooter';
 import SideBarHeader from './SideBarHeader';
 import SideBarItem from './SideBarItem';
+import { MockSubscriptions } from './Subscriptions/Subscription';
 
 export default function SideBar() {
   return (
@@ -12,16 +14,20 @@ export default function SideBar() {
       <Divider />
       <SideBarHeader title='Library' />
       <SideBarItem label='History' icon='history' />
-      <SideBarItem label='Watch Later' icon='clock' />
-      <SideBarItem label='Liked Videos' icon='thumbs up' />
+      <SideBarItem label='Watch later' icon='clock' />
+      <SideBarItem label='Liked videos' icon='thumbs up' />
+      <Divider />
+      <SideBarHeader title='Subscriptions' />
+      <MockSubscriptions />
       <Divider />
       <SideBarHeader title='More from YouTube' />
-      <SideBarItem label='Movies and Shows' icon='film' />
+      <SideBarItem label='Movies &amp; Shows' icon='film' />
       <Divider />
-      <SideBarItem label='Report History' icon='flag' />
+      <SideBarItem label='Report history' icon='flag' />
       <SideBarItem label='Help' icon='help circle' />
       <SideBarItem label='Send Feedback' icon='comment' />
       <Divider />
+      <SideBarFooter />
     </Menu>
   );
 }

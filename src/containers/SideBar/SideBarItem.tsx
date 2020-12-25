@@ -12,7 +12,7 @@ export interface SideBarItemProps extends InferProps<typeof SideBarItem.propType
 function SideBarItem(props: Readonly<SideBarItemProps>) {
   const highlightClassName = props.highlight ? 'highlight' : null;
   return (
-    <Menu.Item className={['sidebar-item', highlightClassName].join(' ')}>
+    <Menu.Item className={['sidebar-item', 'sidebar-clickable', highlightClassName].join(' ')}>
       <div className='sidebar-item-alignment-container'>
         <span><Icon size='large' name={props.icon} /></span>
         <span>{props.label}</span>

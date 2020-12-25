@@ -5,7 +5,7 @@ export interface SideBarHeaderProps {
   title: string
 }
 
-export default function SideBarHeader(props: SideBarHeaderProps) {
+export default function SideBarHeader(props: Readonly<SideBarHeaderProps>) {
   const heading = props.title || '';
   return (
     <Menu.Item>

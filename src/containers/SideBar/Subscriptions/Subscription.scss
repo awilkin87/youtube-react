@@ -1,0 +1,28 @@
+@import '../../../styles/shared.scss';
+
+.subscription {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .subscription-left-container {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+
+    .subscription-name {
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+    }
+  }
+
+  i.icon {
+    color: $red;
+    margin: 0;
+  }
+
+  .new-video-count {
+    color: $grey;
+  }
+}
