@@ -3,6 +3,7 @@ import styles from './SideBarHeader.module.scss';
 
 /** React props for SideBarHeader. */
 export interface SideBarHeaderProps {
+  /** Header text. */
   title: string
 }
 

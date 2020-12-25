@@ -4,8 +4,11 @@ import styles from './SideBarItem.module.scss';
 
 /** React props for SideBarItem. */
 export interface SideBarItemProps {
+  /** True if this menu item should be emphasized. */
   highlight?: boolean,
+  /** Semantic UI icon name. */
   icon: SemanticICONS,
+  /** Menu item text. */
   label: string
 }
 
