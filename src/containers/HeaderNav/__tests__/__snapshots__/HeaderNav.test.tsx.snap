@@ -1,0 +1,84 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders HeaderNav 1`] = `
+<Menu
+  borderless={true}
+  className="topMenu"
+  fixed="top"
+>
+  <MenuItem
+    className="left"
+    header={true}
+  >
+    <Image
+      as="img"
+      size="tiny"
+      src="logo.jpg"
+      ui={true}
+    />
+  </MenuItem>
+  <MenuItem
+    className="center"
+  >
+    <Form
+      as="form"
+      className="search"
+    >
+      <FormField>
+        <Input
+          action="Go"
+          placeholder="Search"
+          size="small"
+          type="text"
+        />
+      </FormField>
+    </Form>
+  </MenuItem>
+  <MenuItem
+    position="right"
+  >
+    <MenuItem>
+      <Icon
+        as="i"
+        className="headerIcon"
+        name="video camera"
+        size="large"
+      />
+    </MenuItem>
+    <MenuItem>
+      <Icon
+        as="i"
+        className="headerIcon"
+        name="grid layout"
+        size="large"
+      />
+    </MenuItem>
+    <MenuItem>
+      <Icon
+        as="i"
+        className="headerIcon"
+        name="chat"
+        size="large"
+      />
+    </MenuItem>
+    <MenuItem>
+      <Icon
+        as="i"
+        className="headerIcon"
+        name="alarm"
+        size="large"
+      />
+    </MenuItem>
+    <MenuItem
+      name="avatar"
+    >
+      <Image
+        as="img"
+        avatar={true}
+        src="http://via.placeholder.com/80x80"
+        ui={true}
+      />
+    </MenuItem>
+  </MenuItem>
+</Menu>
+`;
