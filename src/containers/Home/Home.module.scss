@@ -3,4 +3,64 @@
 .home {
   margin-top: shared.$header-nav-height;
   margin-left: shared.$sidebar-width;
+  padding-top: 14px;
+
+  display: grid;
+  grid: auto / auto;
+  justify-content: center;
+}
+
+/* 
+  The below seems fragile. Width changes to other components (like the side bar or thumbnail) will
+  require manual recalcuation of these media queries. Formulas are:
+
+  container max-width = columnCount * (thumbnailWidth + rowGap) - rowGap
+  viewport min-width =  max-width + 48 + sideBarWidth
+
+  The 48 value above gives 24px of margin on either side of the video grid.
+
+  Another weakness with this approach is that sideBarWidth is given in rem. The pixel equivalent of
+  rem will vary depending on font settings and browser zoom levels.
+*/
+
+// Fits 1 column
+@media all and (min-width: 496px) {
+  .responsiveVideoGridContainer {
+    max-width: 210px;
+  }
+}
+
+// Fits 2 columns
+@media all and (min-width: 710px) {
+  .responsiveVideoGridContainer {
+    max-width: 424px;
+  }
+}
+
+// Fits 3 columns
+@media all and (min-width: 924px) {
+  .responsiveVideoGridContainer {
+    max-width: 638px;
+  }
+}
+
+// Fits 4 columns
+@media all and (min-width: 1138px) {
+  .responsiveVideoGridContainer {
+    max-width: 852px;
+  }
+}
+
+// Fits 5 columns
+@media all and (min-width: 1352px) {
+  .responsiveVideoGridContainer {
+    max-width: 1066px;
+  }
+}
+
+// Fits 6 columns
+@media all and (min-width: 1566px) {
+  .responsiveVideoGridContainer {
+    max-width: 1280px;
+  }
 }
