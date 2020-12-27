@@ -1,4 +1,4 @@
-@use './styles.modules';
+@use './common.modules';
 
 /** Total height of the top nav bar. Needed to properly position and size the side bar. */
 $header-nav-height: 52px;
@@ -6,7 +6,7 @@ $header-nav-height: 52px;
 // Global specificity is to override Semantic UI
 :global(.ui.menu.fixed).sidebar {
   width: 17rem;
-  background: styles.$sidebar-background;
+  background: common.$sidebar-background;
   overflow-y: auto;
   
   // Is this really a good practice? Might it be better to use a grid layout for the page?

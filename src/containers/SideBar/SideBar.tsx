@@ -1,8 +1,8 @@
 import { Divider, Menu } from 'semantic-ui-react';
-import SideBarFooter from './SideBarFooter';
-import SideBarHeader from './SideBarHeader';
-import SideBarItem from './SideBarItem';
-import { MockSubscriptions } from './Subscriptions/Subscription';
+import SideBarFooter from './SideBarFooter/SideBarFooter';
+import SideBarHeader from './SideBarHeader/SideBarHeader';
+import SideBarItem from './SideBarItem/SideBarItem';
+import { MockSubscriptions } from './Subscription/Subscription';
 import styles from './SideBar.module.scss';
 
 /** Vertical sidebar menu. */

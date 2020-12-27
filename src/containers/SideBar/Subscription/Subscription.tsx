@@ -1,6 +1,6 @@
 import PropType, { InferProps } from 'prop-types';
 import { Icon, Image } from 'semantic-ui-react';
-import SideBarClickableItem from '../SideBarClickableItem';
+import SideBarClickableItem from '../SideBarClickableItem/SideBarClickableItem';
 import styles from './Subscription.module.scss';
 
 /** React props for a sidebar Subscription. */

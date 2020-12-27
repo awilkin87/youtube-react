@@ -1,4 +1,4 @@
-@use '../styles.modules';
+@use '../common.modules';
 
 .subscription {
   display: flex;
@@ -19,11 +19,11 @@
 
   // Icon class added by Semantic UI 
   :global(i.icon) {
-    color: styles.$red;
+    color: common.$red;
     margin: 0;
   }
 
   .videoCount {
-    color: styles.$grey;
+    color: common.$grey;
   }
 }

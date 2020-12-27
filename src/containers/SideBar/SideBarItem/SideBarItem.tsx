@@ -1,5 +1,5 @@
 import { Icon, SemanticICONS } from 'semantic-ui-react';
-import SideBarClickableItem from './SideBarClickableItem';
+import SideBarClickableItem from '../SideBarClickableItem/SideBarClickableItem';
 import styles from './SideBarItem.module.scss';
 
 /** React props for SideBarItem. */
