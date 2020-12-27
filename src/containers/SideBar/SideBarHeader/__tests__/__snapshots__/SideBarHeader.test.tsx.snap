@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders SideBarHeader 1`] = `
+<MenuItem>
+  <MenuHeader
+    className="sidebarHeader"
+  >
+    HEADER TITLE
+  </MenuHeader>
+</MenuItem>
+`;

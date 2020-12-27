@@ -1,0 +1,110 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SideBar Subscription Renders Subscription w/ new videos and is broadcasting 1`] = `
+<SideBarClickableItem>
+  <div
+    className="subscription"
+  >
+    <span
+      className="leftContainer"
+    >
+      <Image
+        as="img"
+        avatar={true}
+        src="http://via.placeholder.com/28x28"
+        ui={true}
+      />
+      <span
+        className="label"
+      >
+        MySubscription
+      </span>
+    </span>
+    <Icon
+      as="i"
+      name="podcast"
+    />
+  </div>
+</SideBarClickableItem>
+`;
+
+exports[`SideBar Subscription Renders Subscription w/ new videos and not broadcasting 1`] = `
+<SideBarClickableItem>
+  <div
+    className="subscription"
+  >
+    <span
+      className="leftContainer"
+    >
+      <Image
+        as="img"
+        avatar={true}
+        src="http://via.placeholder.com/28x28"
+        ui={true}
+      />
+      <span
+        className="label"
+      >
+        MySubscription
+      </span>
+    </span>
+    <span
+      className="videoCount"
+    >
+      10
+    </span>
+  </div>
+</SideBarClickableItem>
+`;
+
+exports[`SideBar Subscription Renders Subscription w/ no videos and is broadcasting 1`] = `
+<SideBarClickableItem>
+  <div
+    className="subscription"
+  >
+    <span
+      className="leftContainer"
+    >
+      <Image
+        as="img"
+        avatar={true}
+        src="http://via.placeholder.com/28x28"
+        ui={true}
+      />
+      <span
+        className="label"
+      >
+        MySubscription
+      </span>
+    </span>
+    <Icon
+      as="i"
+      name="podcast"
+    />
+  </div>
+</SideBarClickableItem>
+`;
+
+exports[`SideBar Subscription Renders Subscription w/ no videos and not broadcasting 1`] = `
+<SideBarClickableItem>
+  <div
+    className="subscription"
+  >
+    <span
+      className="leftContainer"
+    >
+      <Image
+        as="img"
+        avatar={true}
+        src="http://via.placeholder.com/28x28"
+        ui={true}
+      />
+      <span
+        className="label"
+      >
+        MySubscription
+      </span>
+    </span>
+  </div>
+</SideBarClickableItem>
+`;

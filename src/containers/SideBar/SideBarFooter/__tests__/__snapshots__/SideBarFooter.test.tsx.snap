@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders SideBarFooter 1`] = `
+<Fragment>
+  <div
+    className="footerBlock"
+  >
+    <div>
+      About Press Copyright
+    </div>
+    <div>
+      Creators Advertise
+    </div>
+    <div>
+      Developers +MyTube
+    </div>
+    <div>
+      Legal
+    </div>
+  </div>
+  <div
+    className="footerBlock"
+  >
+    <div>
+      Terms Privacy
+    </div>
+    <div>
+      Policy & Safety
+    </div>
+    <div>
+      Test new features
+    </div>
+  </div>
+  <div
+    className="footerBlock"
+  >
+    <div>
+      All prices include VAT
+    </div>
+  </div>
+  <div
+    className="footerBlock"
+  >
+    <div>
+      A YouTube clone for educational purposes under fair use. Based on tutorial by Productioncoder.com
+    </div>
+  </div>
+</Fragment>
+`;

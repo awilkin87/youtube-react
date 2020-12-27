@@ -1,5 +1,5 @@
 import { shallow } from "enzyme";
-import HeaderNav from '../HeaderNav'
+import HeaderNav from '../HeaderNav';
 
 test('Renders HeaderNav', () => {
   const wrapper = shallow(<HeaderNav />);

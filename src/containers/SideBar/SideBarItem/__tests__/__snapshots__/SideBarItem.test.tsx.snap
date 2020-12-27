@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SideBarItem Renders SideBarItem w/ Highlight 1`] = `
+<SideBarClickableItem
+  className="sidebarItem highlight"
+>
+  <div
+    className="alignmentContainer"
+  >
+    <span>
+      <Icon
+        as="i"
+        name="home"
+        size="large"
+      />
+    </span>
+    <span>
+      Menu Label
+    </span>
+  </div>
+</SideBarClickableItem>
+`;
+
+exports[`SideBarItem Renders SideBarItem w/o Highlight 1`] = `
+<SideBarClickableItem
+  className="sidebarItem "
+>
+  <div
+    className="alignmentContainer"
+  >
+    <span>
+      <Icon
+        as="i"
+        name="home"
+        size="large"
+      />
+    </span>
+    <span>
+      Menu Label
+    </span>
+  </div>
+</SideBarClickableItem>
+`;
