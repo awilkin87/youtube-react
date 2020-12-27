@@ -1,4 +1,11 @@
-# Getting Started with Create React App
+# YouTube React Clone
+
+A YouTube clone built with React for educational purposes under fair use. Based on tutorial by [ProductionCoder](https://productioncoder.com/build-youtube-in-react-part-1/) with the following differences:
+
+- Typescript
+- CSS Modules
+- Use function components wherever possible
+- Minor look & feel customizations
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
