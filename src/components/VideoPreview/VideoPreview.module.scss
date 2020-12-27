@@ -1,0 +1,54 @@
+
+.videoPreview {
+  display: grid;
+  grid: 118px auto / 210px; 
+}
+
+.thumbnail {
+  grid-row: 1 / 2;
+  grid-column: 1 / 2;
+
+  // Make thumbnail the closest positioned ancestor for timeLabel, without removing it from the
+  // document flow.
+  position: relative;
+
+  .timeLabel {
+    color: white;
+    font-weight: 500;
+    background: #111111;
+    opacity: 0.8;
+    border-radius: 2px;
+
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 4px;
+    padding: 2px 4px;
+    line-height: 12px;
+  }
+}
+
+.videoInfo {
+  color: #6e6e6e;
+  font-size: 13px;
+
+  .videoTitle {
+    color: #111111;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 5px;
+
+    // Limit to two lines; Does not work w/ IE
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+  }
+
+  .channelTitle {
+    // Limit to one line
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+}

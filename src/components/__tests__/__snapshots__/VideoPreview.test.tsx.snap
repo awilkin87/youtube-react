@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders VideoPreview 1`] = `
+<div
+  className="videoPreview"
+>
+  <div
+    className="thumbnail"
+  >
+    <Image
+      as="img"
+      src="http://via.placeholder.com/210x118"
+      ui={true}
+    />
+    <div
+      className="timeLabel"
+    >
+      <span>
+        05:22
+      </span>
+    </div>
+  </div>
+  <div
+    className="videoInfo"
+  >
+    <div
+      className="videoTitle"
+    >
+      Video title
+    </div>
+    <div
+      className="channelTitle"
+    >
+      Channel title
+    </div>
+    <div>
+      2.1M views • 2 days ago
+    </div>
+  </div>
+</div>
+`;
