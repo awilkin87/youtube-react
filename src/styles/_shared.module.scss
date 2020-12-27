@@ -1,0 +1,11 @@
+
+// Is this really a good practice? Might it be better to use a grid layout for the page?
+
+/** Total height of the top nav bar. Needed to properly position and size the side bar and content
+  * pannels. This value must be manually adjusted according the actual nav bar height. */
+$header-nav-height: 52px;
+
+/** Total width of the left nav bar. Needed to properly position and size the content pannels.
+   * This value actually sets the side bar width. */
+$sidebar-width: 17rem;
+

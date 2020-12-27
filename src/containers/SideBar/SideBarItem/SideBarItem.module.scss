@@ -1,9 +1,9 @@
-@use '../common.modules';
+@use '../sidebar-common.modules';
 
 .sidebarItem {
   :global(i.icon) {
     margin-right: 15px;
-    color: common.$grey;
+    color: sidebar-common.$grey;
   }
 
   &.highlight {
@@ -13,7 +13,7 @@
 
     // Icon class added by Semantic UI 
     :global(i.icon) {
-      color: common.$red;
+      color: sidebar-common.$red;
     }
   }
 }
