@@ -1,1 +1,38 @@
-// TODO
+.watchGrid {
+  display: grid;
+  grid-template: "video    related" auto
+                 "metadata related" auto
+                 "infoBox  related" auto
+                 "comments related" 1fr
+                 / auto 402px;
+  padding-top: 24px;
+  padding-left: 24px;
+  padding-right: 24px;
+  row-gap: 8px;
+  column-gap: 24px;
+
+  .video {
+    grid-area: video;
+
+    // 9:16 Aspect Ratio
+    $minHeight: 240px;
+    min-height: $minHeight;
+    min-width: $minHeight / (9 / 16);
+  }
+
+  .metadata {
+    grid-area: metadata;
+  }
+
+  .infoBox {
+    grid-area: infoBox;
+  }
+
+  .comments {
+    grid-area: comments;
+  }
+
+  .relatedVideos {
+    grid-area: related;
+  }
+}
