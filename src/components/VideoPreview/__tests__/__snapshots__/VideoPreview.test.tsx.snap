@@ -34,7 +34,7 @@ exports[`VideoPreview Renders horizontal VideoPreview 1`] = `
       Channel title
     </div>
     <div>
-      2.1M views • 2 days ago
+      2.1M views ᛫ 2 days ago
     </div>
   </div>
 </div>
@@ -74,7 +74,7 @@ exports[`VideoPreview Renders vertical VideoPreview 1`] = `
       Channel title
     </div>
     <div>
-      2.1M views • 2 days ago
+      2.1M views ᛫ 2 days ago
     </div>
   </div>
 </div>

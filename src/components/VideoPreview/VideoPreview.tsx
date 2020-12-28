@@ -18,7 +18,7 @@ const VideoPreview: React.FunctionComponent<Readonly<VideoPreviewProps>> = funct
       <div className={styles.videoInfo}>
         <div className={styles.videoTitle}>Video title</div>
         <div className={styles.channelTitle}>Channel title</div>
-        <div>2.1M views • 2 days ago</div>
+        <div>2.1M views &#5867; 2 days ago</div>
       </div>
     </div>
   );

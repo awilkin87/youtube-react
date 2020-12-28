@@ -12,7 +12,7 @@ exports[`VideoMetadata Render VideoMetadata with views 1`] = `
   >
     <span>
       1,000
-       views
+       views ᛫ Aug 14, 2017
     </span>
     <div
       className="actions"
@@ -73,7 +73,7 @@ exports[`VideoMetadata Render VideoMetadata with zero views 1`] = `
   >
     <span>
       0
-       views
+       views ᛫ Aug 14, 2017
     </span>
     <div
       className="actions"

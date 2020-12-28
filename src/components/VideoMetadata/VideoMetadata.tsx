@@ -12,7 +12,7 @@ const VideoMetaData: React.FunctionComponent<Readonly<VideoMetaDataProps>> = fun
     <div className={styles.container}>
       <h3>{props.title}</h3>
       <div className={styles.stats}>
-        <span>{props.viewCount.toLocaleString()} views</span>
+        <span>{props.viewCount.toLocaleString()} views &#5867; Aug 14, 2017</span>
         <div className={styles.actions}>
           <Rating likes={75} dislikes={25} />
           <Button basic icon labelPosition='left'>
