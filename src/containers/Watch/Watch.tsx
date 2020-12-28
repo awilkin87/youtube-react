@@ -2,6 +2,7 @@ import Video from '../../components/Video/Video';
 import RelatedVideos from '../../components/RelatedVideos/RelatedVideos';
 import VideoMetaData from '../../components/VideoMetadata/VideoMetadata';
 import VideoInfoBox from '../../components/VideoInfoBox/VideoInfoBox';
+import Comments from '../Comments/Comments';
 import styles from './Watch.module.scss';
 
 export default function Watch() {
@@ -16,9 +17,9 @@ export default function Watch() {
       <div className={styles.infoBox}>
         <VideoInfoBox />
       </div>
-      <div className={styles.comments} style={{ width: '100%', height: '100px', background: '#9013FE' }}>
-        Comments
-        </div>
+      <div className={styles.comments}>
+        <Comments />
+      </div>
       <div className={styles.relatedVideos}>
         <RelatedVideos />
       </div>

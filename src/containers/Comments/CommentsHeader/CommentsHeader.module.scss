@@ -1,0 +1,13 @@
+@use '../../../styles/shared.module';
+
+.container {
+  h4 {
+    display: inline-block;
+    margin-right: 16px;
+  }
+
+  // Customize Semantic UI button
+  :global(.ui.button.labeled) {
+    @include shared.labeled-button;
+  }
+}

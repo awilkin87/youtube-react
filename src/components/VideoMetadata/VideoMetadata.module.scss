@@ -19,13 +19,9 @@
       display: flex;
       align-items: center;
 
+      // Customize Semantic UI button
       :global(.button.labeled) {
-        font-size: 14px;
-        text-transform: uppercase;
-        font-weight: 600;
-        
-        padding-left: 47px !important;
-        padding-right: 11px !important;
+        @include shared.labeled-button;
       }
       
       & > *:not(:last-child) {

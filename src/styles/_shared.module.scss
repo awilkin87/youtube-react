@@ -9,6 +9,15 @@ $secondary-text-color: #6e6e6e;
 $header-nav-height: 52px;
 
 /** Total width of the left nav bar. Needed to properly position and size the content pannels.
-   * This value actually sets the side bar width. */
+  * This value actually sets the side bar width. */
 $sidebar-width: 17rem;
 
+/** Overrides for Semantic UI labeled buttons. */
+@mixin labeled-button {
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 600;
+  
+  padding-left: 47px !important;
+  padding-right: 11px !important;
+}
