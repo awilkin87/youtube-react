@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { Form, Image, Input, Menu, Icon } from 'semantic-ui-react';
 import logo from '../../assets/images/logo.jpg';
 import styles from './HeaderNav.module.scss';
@@ -8,7 +9,9 @@ export default function HeaderNav() {
   return (
     <Menu borderless className={styles.topMenu} fixed='top'>
       <Menu.Item header className={styles.left}>
-        <Image src={logo} size='tiny' />
+        <Link to='/'>
+          <Image src={logo} size='tiny' />
+        </Link>
       </Menu.Item>
 
       <Menu.Item className={styles.center}>
@@ -18,7 +21,7 @@ export default function HeaderNav() {
           </Form.Field>
         </Form>
       </Menu.Item>
-      
+
       <Menu.Item position='right'>
         <Menu.Item>
           <Icon className={styles.headerIcon} name='video camera' size='large' />
