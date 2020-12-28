@@ -1,13 +1,14 @@
 import Video from '../../components/Video/Video';
-import VideoPreview from '../../components/VideoPreview/VideoPreview';
+import RelatedVideos from '../../components/RelatedVideos/RelatedVideos';
 import styles from './Watch.module.scss';
 
 export default function Watch() {
   return (
-    <div style={{maxWidth: '80%'}}>
-      <Video id='-7fuHEEmEjs' />
-      <VideoPreview orientation='horizontal' />
-      <VideoPreview orientation='vertical' />
-    </div>
+    <>
+      <RelatedVideos />
+      <div style={{ maxWidth: '80%' }}>
+        <Video id='-7fuHEEmEjs' />
+      </div>
+    </>
   );
 }
