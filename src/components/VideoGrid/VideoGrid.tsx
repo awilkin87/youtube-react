@@ -2,7 +2,7 @@ import { Divider } from 'semantic-ui-react';
 import VideoPreview from '../VideoPreview/VideoPreview'
 import styles from './VideoGrid.module.scss';
 
-interface VideoGridProps {
+export interface VideoGridProps {
   title: string
   hideDivider?: boolean
 }

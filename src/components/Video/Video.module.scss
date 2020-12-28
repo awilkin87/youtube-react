@@ -1,0 +1,24 @@
+.videoContainer {
+  position: relative;
+  width: 100%;
+
+  &:before {
+    content: "";
+    display: block;
+    padding-top: 56.25%; // 9:16 display ratio
+  }
+
+  .video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+
+    .videoPlayer {
+      min-height: 240px;
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
