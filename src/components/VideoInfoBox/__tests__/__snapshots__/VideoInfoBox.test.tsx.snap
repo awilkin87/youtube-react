@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VideoPreview Renders collapsed VideoInfoBox 1`] = `
+<div
+  className="container"
+>
+  <Image
+    as="img"
+    circular={true}
+    className="channelImage"
+    src="http://via.placeholder.com/48x48"
+    ui={true}
+  />
+  <div
+    className="videoInfo"
+  >
+    <div
+      className="channelName"
+    >
+      Channel Name
+    </div>
+    <div
+      className="subscriberCount"
+    >
+      80K Subscribers
+    </div>
+  </div>
+  <Button
+    as="button"
+    className="subscribeButton"
+    color="red"
+  >
+    Subscribe
+  </Button>
+  <div
+    className="description"
+  >
+    <div
+      className="collapsed"
+    >
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id tempor massa. Duis in suscipit urna. Nunc vel rhoncus lectus. Fusce facilisis mauris at libero mattis porta. Donec elementum orci ac consectetur venenatis. In scelerisque, mauris efficitur volutpat pellentesque, odio mi congue nisl, sit amet accumsan ipsum nibh at odio.
+      </p>
+    </div>
+    <Button
+      as="button"
+      compact={true}
+      onClick={[Function]}
+    >
+      Show 
+      More
+    </Button>
+  </div>
+</div>
+`;

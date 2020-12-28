@@ -1,0 +1,61 @@
+@use '../../styles/shared.module';
+
+.container {
+  display: grid;
+  grid-template: "channel-image video-info  subscribe"   auto
+                 "blank-left    description blank-right" auto
+                 /58px          auto        max-content;
+  align-items: center;
+  row-gap: 16px;
+  color: shared.$primary-text-color;
+
+  .channelImage {
+    grid-area: channel-image;
+  }
+
+  .videoInfo {
+    grid-area: video-info;
+
+    .channelName {
+      font-weight: 600;
+    }
+
+    .subscriberCount {
+      color: shared.$secondary-text-color;
+      font-size: 13px;
+    }
+  }
+
+  .subscribeButton {
+    grid-area: subscribe;
+    border-radius: 0; // Override SemanicUI border
+    text-transform: uppercase;
+  }
+
+  .description {
+    grid-area: description;
+    max-width: 615px;
+
+    $line-height: 1.4rem;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+    
+    p {
+      line-height: $line-height;
+    }
+
+    .collapsed {
+      // Limit to three lines
+      max-height: 3 * $line-height;
+      overflow-y: hidden;
+    }
+
+    .expanded {
+      max-height: none;
+    }
+
+    button {
+      margin: 8px 0;
+    }
+  }
+}
