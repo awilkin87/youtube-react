@@ -1,0 +1,11 @@
+@use '../../styles/shared.module';
+
+.appLayout {
+  & > *:not(:first-child) {
+    margin-top: shared.$header-nav-height;
+  }
+
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+}
