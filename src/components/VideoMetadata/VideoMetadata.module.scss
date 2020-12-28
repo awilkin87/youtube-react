@@ -1,0 +1,18 @@
+@use '../../styles/shared.module';
+
+.container {
+  color: shared.$secondary-text-color;
+  font-size: 16px;
+
+  h3 {
+    color: shared.$primary-text-color;
+    font-weight: 400;
+  }
+ 
+  .stats {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+  }
+}

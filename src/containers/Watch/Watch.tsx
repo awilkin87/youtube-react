@@ -1,6 +1,7 @@
 import Video from '../../components/Video/Video';
 import RelatedVideos from '../../components/RelatedVideos/RelatedVideos';
 import styles from './Watch.module.scss';
+import VideoMetaData from '../../components/VideoMetadata/VideoMetadata';
 
 export default function Watch() {
   return (
@@ -8,9 +9,9 @@ export default function Watch() {
       <div className={styles.video}>
         <Video id='-7fuHEEmEjs' />
       </div>
-      <div className={styles.metadata} style={{ width: '100%', height: '100px', background: '#F91112' }}>
-        Metadata
-          </div>
+      <div className={styles.metadata}>
+        <VideoMetaData title='Video Title' viewCount={1000} />
+      </div>
       <div className={styles.infoBox} style={{ width: '100%', height: '100px', background: '#BD10E0' }}>
         Video Info Box
         </div>
