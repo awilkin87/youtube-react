@@ -10,18 +10,42 @@ exports[`VideoGrid Renders VideoGrid w/ divider 1`] = `
   <div
     className="videoGrid"
   >
-    <VideoPreview />
-    <VideoPreview />
-    <VideoPreview />
-    <VideoPreview />
-    <VideoPreview />
-    <VideoPreview />
-    <VideoPreview />
-    <VideoPreview />
-    <VideoPreview />
-    <VideoPreview />
-    <VideoPreview />
-    <VideoPreview />
+    <VideoPreview
+      orientation="vertical"
+    />
+    <VideoPreview
+      orientation="vertical"
+    />
+    <VideoPreview
+      orientation="vertical"
+    />
+    <VideoPreview
+      orientation="vertical"
+    />
+    <VideoPreview
+      orientation="vertical"
+    />
+    <VideoPreview
+      orientation="vertical"
+    />
+    <VideoPreview
+      orientation="vertical"
+    />
+    <VideoPreview
+      orientation="vertical"
+    />
+    <VideoPreview
+      orientation="vertical"
+    />
+    <VideoPreview
+      orientation="vertical"
+    />
+    <VideoPreview
+      orientation="vertical"
+    />
+    <VideoPreview
+      orientation="vertical"
+    />
   </div>
   <Divider />
 </Fragment>
@@ -37,18 +61,42 @@ exports[`VideoGrid Renders VideoGrid w/o divider 1`] = `
   <div
     className="videoGrid"
   >
-    <VideoPreview />
-    <VideoPreview />
-    <VideoPreview />
-    <VideoPreview />
-    <VideoPreview />
-    <VideoPreview />
-    <VideoPreview />
-    <VideoPreview />
-    <VideoPreview />
-    <VideoPreview />
-    <VideoPreview />
-    <VideoPreview />
+    <VideoPreview
+      orientation="vertical"
+    />
+    <VideoPreview
+      orientation="vertical"
+    />
+    <VideoPreview
+      orientation="vertical"
+    />
+    <VideoPreview
+      orientation="vertical"
+    />
+    <VideoPreview
+      orientation="vertical"
+    />
+    <VideoPreview
+      orientation="vertical"
+    />
+    <VideoPreview
+      orientation="vertical"
+    />
+    <VideoPreview
+      orientation="vertical"
+    />
+    <VideoPreview
+      orientation="vertical"
+    />
+    <VideoPreview
+      orientation="vertical"
+    />
+    <VideoPreview
+      orientation="vertical"
+    />
+    <VideoPreview
+      orientation="vertical"
+    />
   </div>
   <Component />
 </Fragment>

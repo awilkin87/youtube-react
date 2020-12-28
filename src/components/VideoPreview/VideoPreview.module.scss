@@ -1,6 +1,14 @@
 .videoPreview {
   display: grid;
-  grid: 118px auto / 210px; 
+
+  &.vertical {
+    grid: 118px auto / 210px; 
+  }
+
+  &.horizontal {
+    grid: auto / 210px auto;
+    column-gap: 4px;
+  }
 }
 
 .thumbnail {

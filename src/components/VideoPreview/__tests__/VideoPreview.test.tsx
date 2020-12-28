@@ -1,7 +1,15 @@
 import { shallow } from "enzyme";
 import VideoPreview from '../VideoPreview';
 
-test('Renders VideoPreview', () => {
-  const wrapper = shallow(<VideoPreview />);
-  expect(wrapper).toMatchSnapshot();
+describe('VideoPreview', () => {
+  test('Renders vertical VideoPreview', () => {
+    const wrapper = shallow(<VideoPreview orientation='vertical' />);
+    expect(wrapper).toMatchSnapshot();
+  });
+
+  
+  test('Renders horizontal VideoPreview', () => {
+    const wrapper = shallow(<VideoPreview orientation='horizontal' />);
+    expect(wrapper).toMatchSnapshot();
+  });
 });
