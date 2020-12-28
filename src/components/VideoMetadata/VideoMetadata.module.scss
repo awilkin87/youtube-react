@@ -14,5 +14,23 @@
     justify-content: space-between;
     width: 100%;
     align-items: center;
+
+    .actions {
+      display: flex;
+      align-items: center;
+
+      :global(.button.labeled) {
+        font-size: 14px;
+        text-transform: uppercase;
+        font-weight: 600;
+        
+        padding-left: 47px !important;
+        padding-right: 11px !important;
+      }
+      
+      & > *:not(:last-child) {
+        margin-right: 8px;
+      }
+    }
   }
 }

@@ -1,0 +1,32 @@
+.container {
+  display: inline-grid;
+  grid-template: "thumb-up thumb-down" auto
+                 "rating-bar rating-bar" auto
+                 / 71px 71px;
+  column-gap: 16px;
+  row-gap: 4px;
+  font-weight: 600;
+  
+  .thumbsUp {
+    grid-area: thumb-up;
+  }
+
+  .thumbsDown {
+    grid-area: thumb-down;
+  }
+
+  // Global specificity is to override Semantic UI
+  :global(.ui.progress).ratingBar {
+    grid-area: rating-bar;
+    background-color: #e5e5e5;
+    border-radius: 0;
+    margin-bottom: 0;
+
+    :global(.bar) {
+      // For reason Semantic UI does not show 0% as an empty progress bar.
+      // Need to override it.
+      min-width: 0;
+      border-radius: 0;
+    }
+  }
+}
