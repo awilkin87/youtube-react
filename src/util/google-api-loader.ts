@@ -41,5 +41,5 @@ async function initYoutubeClient(apiKey: string) {
   return window.gapi.client.init({
     apiKey: apiKey,
     discoveryDocs: ['https://www.googleapis.com/discovery/v1/apis/youtube/v3/rest']
-  })
+  });
 }
