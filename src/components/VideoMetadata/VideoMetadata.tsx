@@ -1,5 +1,5 @@
 import { Button, Icon, Divider } from 'semantic-ui-react';
-import Rating from '../Rating/Rating';
+import VideoRating from '../VideoRating/VideoRating';
 import styles from './VideoMetadata.module.scss';
 
 export interface VideoMetaDataProps {
@@ -14,7 +14,7 @@ const VideoMetaData: React.FunctionComponent<Readonly<VideoMetaDataProps>> = fun
       <div className={styles.stats}>
         <span>{props.viewCount.toLocaleString()} views &#5867; Aug 14, 2017</span>
         <div className={styles.actions}>
-          <Rating likes={75} dislikes={25} />
+          <VideoRating likes={75} dislikes={25} />
           <Button basic icon labelPosition='left'>
             <Icon name='share' />
             Share

@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Render Rating 1`] = `
+exports[`Render VideoRating 1`] = `
 <div
   className="container"
 >

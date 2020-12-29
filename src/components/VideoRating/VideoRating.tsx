@@ -1,12 +1,12 @@
 import { Icon, Progress } from 'semantic-ui-react';
-import styles from './Rating.module.scss';
+import styles from './VideoRating.module.scss';
 
-export interface RatingProps {
+export interface VideoRatingProps {
   likes: number;
   dislikes: number;
 }
 
-const Rating: React.FunctionComponent<Readonly<RatingProps>> = function ({ likes, dislikes }) {
+const VideoRating: React.FunctionComponent<Readonly<VideoRatingProps>> = function ({ likes, dislikes }) {
   const totalRatings = likes + dislikes;
   const precentLikes = totalRatings ? 100 * (likes / totalRatings) : 50;
 
@@ -25,4 +25,4 @@ const Rating: React.FunctionComponent<Readonly<RatingProps>> = function ({ likes
   );
 }
 
-export default Rating;
+export default VideoRating;
