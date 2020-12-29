@@ -1,5 +1,7 @@
 import { useEffect } from 'react';
 import { Route, Switch } from 'react-router-dom';
+import { useDispatch } from 'react-redux';
+import { youtubeLibraryLoaded } from './store/api-load/actions';
 import AppLayout from './components/AppLayout/AppLayout';
 import Home from './containers/Home/Home';
 import Watch from './containers/Watch/Watch';
@@ -7,9 +9,13 @@ import API_KEY from './apiKey';
 
 /** Top-level parent component for the whole app. */
 export default function App() {
+  const dispatch = useDispatch();
+
   // Load YouTube API only on initial render
   useEffect(() => {
-    loadYoutubeApi(API_KEY).then(() => alert('YouTube is now ready!'));
+    loadYoutubeApi(API_KEY).then(() => {
+      dispatch(youtubeLibraryLoaded());
+    });
   }, []);
 
   return (
