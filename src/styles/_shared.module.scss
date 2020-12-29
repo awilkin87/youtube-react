@@ -12,6 +12,19 @@ $header-nav-height: 52px;
   * This value actually sets the side bar width. */
 $sidebar-width: 17rem;
 
+/** Diameter for normal sized avatar images. */
+$avatar-diameter: 48px;
+
+/** Margin for normal sized avatar images. */
+$avatar-margin: 10px;
+
+/** Defines width/height and margin for an avatar positioned on the left side of the screen. */
+@mixin left-avatar {
+  width: $avatar-diameter;
+  height: $avatar-diameter;
+  margin-right: $avatar-margin;
+}
+
 /** Overrides for Semantic UI labeled buttons. */
 @mixin labeled-button {
   font-size: 14px;

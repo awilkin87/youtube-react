@@ -1,16 +1,19 @@
 @use '../../styles/shared.module';
 
 .container {
+  $channel-image-size: calc(#{shared.$avatar-diameter + shared.$avatar-margin});
+
   display: grid;
   grid-template: "channel-image video-info  subscribe"   auto
                  "blank-left    description blank-right" auto
-                 /58px          auto        max-content;
+                 /max-content     auto        max-content;
   align-items: center;
   row-gap: 16px;
   color: shared.$primary-text-color;
 
   .channelImage {
     grid-area: channel-image;
+    @include shared.left-avatar;
   }
 
   .videoInfo {
