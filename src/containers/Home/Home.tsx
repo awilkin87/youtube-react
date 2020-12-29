@@ -1,18 +1,12 @@
-import VideoGrid from '../../components/VideoGrid/VideoGrid';
 import SideBar from '../SideBar/SideBar';
-import styles from './Home.module.scss';
+import HomeContent from './HomeContent/HomeContent';
 
-/** Home content screen, containing suggested videos. */
+/** Home screen container component. Presents the side nav bar and suggested video content. */
 export default function Home() {
   return (
     <>
       <SideBar />
-      <div className={styles.home}>
-        <div className={styles.responsiveVideoGridContainer} >
-          <VideoGrid title='Trending' />
-          <VideoGrid title='Autos &amp; Vehicles' hideDivider />
-        </div>
-      </div>
+      <HomeContent />
     </>
   );
 }
