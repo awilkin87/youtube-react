@@ -1,0 +1,20 @@
+@use '../../../styles/shared.module';
+
+.container {
+  display: inline-flex;
+  font-size: 13px;
+  color: shared.$secondary-text-color;
+
+  // Override Semantic UI color
+  :global(i.icon) {
+    color: #909090;
+  }
+  
+  .thumbsUp {
+    margin-right: 14px;
+  }
+
+  .thumbsDown {
+    margin-right: 14px;
+  }
+}

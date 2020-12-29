@@ -1,0 +1,28 @@
+@use '../../../styles/shared.module';
+
+.container {
+  display: flex;
+  margin: 16px 0;
+
+  .avatar {
+    @include shared.left-avatar;
+    flex-shrink: 0;
+  }
+
+  .userName {
+    font-weight: 600;
+    margin-bottom: 4px;
+  }
+
+  .actions {
+    margin-top: 4px;
+
+    button {
+      margin-left: 8px;
+
+      // Override Semantic UI values
+      font-weight: 500px;
+      text-transform: uppercase;
+    }
+  }
+}

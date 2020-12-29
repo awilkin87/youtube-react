@@ -25,8 +25,9 @@ const VideoInfoBox: React.FunctionComponent<Readonly<VideoInfoBoxProps>> = funct
               suscipit urna. Nunc vel rhoncus lectus. Fusce facilisis mauris at libero mattis porta.
               Donec elementum orci ac consectetur venenatis. In scelerisque, mauris efficitur volutpat
               pellentesque, odio mi congue nisl, sit amet accumsan ipsum nibh at odio.
-        </p>
+            </p>
           </div>
+          {/* TODO Hide this button if the text all fits. */}
           <Button compact onClick={() => setCollapsed(!collapsed)}>
             Show {collapsed ? 'More' : 'Less'}
           </Button>
