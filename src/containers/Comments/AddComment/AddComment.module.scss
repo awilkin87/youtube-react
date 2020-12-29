@@ -1,0 +1,15 @@
+@use '../../../styles/shared.module';
+
+.container {
+  display: flex;
+  align-items:flex-start;
+  margin: 16px 0;
+
+  .userAvatar {
+    @include shared.left-avatar;
+  }
+
+  form {
+    flex: 1;
+  }
+}
