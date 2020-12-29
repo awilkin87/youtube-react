@@ -16,7 +16,7 @@ export default function App() {
     loadYoutubeApi(API_KEY).then(() => {
       dispatch(youtubeLibraryLoaded());
     });
-  }, []);
+  }, [dispatch]);
 
   return (
     <AppLayout>
