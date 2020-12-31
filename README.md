@@ -5,6 +5,8 @@ A YouTube clone built with React for educational purposes under fair use. Based 
 - Typescript
 - CSS Modules
 - Use function components wherever possible
+- Avoid using Redux wherever possible. Per the tutorial author's [retrospective](https://productioncoder.com/what-i-learned-creating-a-45-part-tutorial-series-on-how-to-build-youtube-in-react):
+  > "If I had to start over again with this project, I’d try to use React hooks all the time and would only use Redux as a last resort."
 - Minor look & feel customizations
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

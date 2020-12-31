@@ -12,7 +12,7 @@ export async function loadYoutubeApi(apiKey: string) {
 
 
 // Was having issues loading the client.js alone. The client namespace would not always be
-// available when the callbacks were executed.Loading api.js, then the client, then initializing
+// available when the callbacks were executed. Loading api.js, then the client, then initializing
 // YouTube API seems to work better.
 
 async function loadGoogleApi() {
