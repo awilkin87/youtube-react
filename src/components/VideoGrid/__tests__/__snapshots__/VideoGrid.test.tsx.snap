@@ -7,44 +7,189 @@ exports[`VideoGrid Renders VideoGrid w/ divider 1`] = `
   >
     Grid Title
   </h4>
+   
   <div
     className="videoGrid"
   >
     <VideoPreview
+      key="0"
       orientation="vertical"
+      video={
+        Object {
+          "channelTitle": "Channel Name",
+          "duration": "3:52",
+          "id": 0,
+          "publishDate": 1970-01-01T00:00:00.000Z,
+          "thumbnail": "http://via.placeholder.com/210x118",
+          "videoTitle": "Video Title",
+          "viewCount": 56,
+        }
+      }
     />
     <VideoPreview
+      key="1"
       orientation="vertical"
+      video={
+        Object {
+          "channelTitle": "Channel Name",
+          "duration": "3:52",
+          "id": 0,
+          "publishDate": 1970-01-01T00:00:00.000Z,
+          "thumbnail": "http://via.placeholder.com/210x118",
+          "videoTitle": "Video Title",
+          "viewCount": 56,
+        }
+      }
     />
     <VideoPreview
+      key="2"
       orientation="vertical"
+      video={
+        Object {
+          "channelTitle": "Channel Name",
+          "duration": "3:52",
+          "id": 0,
+          "publishDate": 1970-01-01T00:00:00.000Z,
+          "thumbnail": "http://via.placeholder.com/210x118",
+          "videoTitle": "Video Title",
+          "viewCount": 56,
+        }
+      }
     />
     <VideoPreview
+      key="3"
       orientation="vertical"
+      video={
+        Object {
+          "channelTitle": "Channel Name",
+          "duration": "3:52",
+          "id": 0,
+          "publishDate": 1970-01-01T00:00:00.000Z,
+          "thumbnail": "http://via.placeholder.com/210x118",
+          "videoTitle": "Video Title",
+          "viewCount": 56,
+        }
+      }
     />
     <VideoPreview
+      key="4"
       orientation="vertical"
+      video={
+        Object {
+          "channelTitle": "Channel Name",
+          "duration": "3:52",
+          "id": 0,
+          "publishDate": 1970-01-01T00:00:00.000Z,
+          "thumbnail": "http://via.placeholder.com/210x118",
+          "videoTitle": "Video Title",
+          "viewCount": 56,
+        }
+      }
     />
     <VideoPreview
+      key="5"
       orientation="vertical"
+      video={
+        Object {
+          "channelTitle": "Channel Name",
+          "duration": "3:52",
+          "id": 0,
+          "publishDate": 1970-01-01T00:00:00.000Z,
+          "thumbnail": "http://via.placeholder.com/210x118",
+          "videoTitle": "Video Title",
+          "viewCount": 56,
+        }
+      }
     />
     <VideoPreview
+      key="6"
       orientation="vertical"
+      video={
+        Object {
+          "channelTitle": "Channel Name",
+          "duration": "3:52",
+          "id": 0,
+          "publishDate": 1970-01-01T00:00:00.000Z,
+          "thumbnail": "http://via.placeholder.com/210x118",
+          "videoTitle": "Video Title",
+          "viewCount": 56,
+        }
+      }
     />
     <VideoPreview
+      key="7"
       orientation="vertical"
+      video={
+        Object {
+          "channelTitle": "Channel Name",
+          "duration": "3:52",
+          "id": 0,
+          "publishDate": 1970-01-01T00:00:00.000Z,
+          "thumbnail": "http://via.placeholder.com/210x118",
+          "videoTitle": "Video Title",
+          "viewCount": 56,
+        }
+      }
     />
     <VideoPreview
+      key="8"
       orientation="vertical"
+      video={
+        Object {
+          "channelTitle": "Channel Name",
+          "duration": "3:52",
+          "id": 0,
+          "publishDate": 1970-01-01T00:00:00.000Z,
+          "thumbnail": "http://via.placeholder.com/210x118",
+          "videoTitle": "Video Title",
+          "viewCount": 56,
+        }
+      }
     />
     <VideoPreview
+      key="9"
       orientation="vertical"
+      video={
+        Object {
+          "channelTitle": "Channel Name",
+          "duration": "3:52",
+          "id": 0,
+          "publishDate": 1970-01-01T00:00:00.000Z,
+          "thumbnail": "http://via.placeholder.com/210x118",
+          "videoTitle": "Video Title",
+          "viewCount": 56,
+        }
+      }
     />
     <VideoPreview
+      key="10"
       orientation="vertical"
+      video={
+        Object {
+          "channelTitle": "Channel Name",
+          "duration": "3:52",
+          "id": 0,
+          "publishDate": 1970-01-01T00:00:00.000Z,
+          "thumbnail": "http://via.placeholder.com/210x118",
+          "videoTitle": "Video Title",
+          "viewCount": 56,
+        }
+      }
     />
     <VideoPreview
+      key="11"
       orientation="vertical"
+      video={
+        Object {
+          "channelTitle": "Channel Name",
+          "duration": "3:52",
+          "id": 0,
+          "publishDate": 1970-01-01T00:00:00.000Z,
+          "thumbnail": "http://via.placeholder.com/210x118",
+          "videoTitle": "Video Title",
+          "viewCount": 56,
+        }
+      }
     />
   </div>
   <Divider />
@@ -58,44 +203,189 @@ exports[`VideoGrid Renders VideoGrid w/o divider 1`] = `
   >
     Grid Title
   </h4>
+   
   <div
     className="videoGrid"
   >
     <VideoPreview
+      key="0"
       orientation="vertical"
+      video={
+        Object {
+          "channelTitle": "Channel Name",
+          "duration": "3:52",
+          "id": 0,
+          "publishDate": 1970-01-01T00:00:00.000Z,
+          "thumbnail": "http://via.placeholder.com/210x118",
+          "videoTitle": "Video Title",
+          "viewCount": 56,
+        }
+      }
     />
     <VideoPreview
+      key="1"
       orientation="vertical"
+      video={
+        Object {
+          "channelTitle": "Channel Name",
+          "duration": "3:52",
+          "id": 0,
+          "publishDate": 1970-01-01T00:00:00.000Z,
+          "thumbnail": "http://via.placeholder.com/210x118",
+          "videoTitle": "Video Title",
+          "viewCount": 56,
+        }
+      }
     />
     <VideoPreview
+      key="2"
       orientation="vertical"
+      video={
+        Object {
+          "channelTitle": "Channel Name",
+          "duration": "3:52",
+          "id": 0,
+          "publishDate": 1970-01-01T00:00:00.000Z,
+          "thumbnail": "http://via.placeholder.com/210x118",
+          "videoTitle": "Video Title",
+          "viewCount": 56,
+        }
+      }
     />
     <VideoPreview
+      key="3"
       orientation="vertical"
+      video={
+        Object {
+          "channelTitle": "Channel Name",
+          "duration": "3:52",
+          "id": 0,
+          "publishDate": 1970-01-01T00:00:00.000Z,
+          "thumbnail": "http://via.placeholder.com/210x118",
+          "videoTitle": "Video Title",
+          "viewCount": 56,
+        }
+      }
     />
     <VideoPreview
+      key="4"
       orientation="vertical"
+      video={
+        Object {
+          "channelTitle": "Channel Name",
+          "duration": "3:52",
+          "id": 0,
+          "publishDate": 1970-01-01T00:00:00.000Z,
+          "thumbnail": "http://via.placeholder.com/210x118",
+          "videoTitle": "Video Title",
+          "viewCount": 56,
+        }
+      }
     />
     <VideoPreview
+      key="5"
       orientation="vertical"
+      video={
+        Object {
+          "channelTitle": "Channel Name",
+          "duration": "3:52",
+          "id": 0,
+          "publishDate": 1970-01-01T00:00:00.000Z,
+          "thumbnail": "http://via.placeholder.com/210x118",
+          "videoTitle": "Video Title",
+          "viewCount": 56,
+        }
+      }
     />
     <VideoPreview
+      key="6"
       orientation="vertical"
+      video={
+        Object {
+          "channelTitle": "Channel Name",
+          "duration": "3:52",
+          "id": 0,
+          "publishDate": 1970-01-01T00:00:00.000Z,
+          "thumbnail": "http://via.placeholder.com/210x118",
+          "videoTitle": "Video Title",
+          "viewCount": 56,
+        }
+      }
     />
     <VideoPreview
+      key="7"
       orientation="vertical"
+      video={
+        Object {
+          "channelTitle": "Channel Name",
+          "duration": "3:52",
+          "id": 0,
+          "publishDate": 1970-01-01T00:00:00.000Z,
+          "thumbnail": "http://via.placeholder.com/210x118",
+          "videoTitle": "Video Title",
+          "viewCount": 56,
+        }
+      }
     />
     <VideoPreview
+      key="8"
       orientation="vertical"
+      video={
+        Object {
+          "channelTitle": "Channel Name",
+          "duration": "3:52",
+          "id": 0,
+          "publishDate": 1970-01-01T00:00:00.000Z,
+          "thumbnail": "http://via.placeholder.com/210x118",
+          "videoTitle": "Video Title",
+          "viewCount": 56,
+        }
+      }
     />
     <VideoPreview
+      key="9"
       orientation="vertical"
+      video={
+        Object {
+          "channelTitle": "Channel Name",
+          "duration": "3:52",
+          "id": 0,
+          "publishDate": 1970-01-01T00:00:00.000Z,
+          "thumbnail": "http://via.placeholder.com/210x118",
+          "videoTitle": "Video Title",
+          "viewCount": 56,
+        }
+      }
     />
     <VideoPreview
+      key="10"
       orientation="vertical"
+      video={
+        Object {
+          "channelTitle": "Channel Name",
+          "duration": "3:52",
+          "id": 0,
+          "publishDate": 1970-01-01T00:00:00.000Z,
+          "thumbnail": "http://via.placeholder.com/210x118",
+          "videoTitle": "Video Title",
+          "viewCount": 56,
+        }
+      }
     />
     <VideoPreview
+      key="11"
       orientation="vertical"
+      video={
+        Object {
+          "channelTitle": "Channel Name",
+          "duration": "3:52",
+          "id": 0,
+          "publishDate": 1970-01-01T00:00:00.000Z,
+          "thumbnail": "http://via.placeholder.com/210x118",
+          "videoTitle": "Video Title",
+          "viewCount": 56,
+        }
+      }
     />
   </div>
   <Component />

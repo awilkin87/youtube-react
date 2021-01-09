@@ -1,4 +1,5 @@
 import { Checkbox, Divider } from 'semantic-ui-react';
+import { MockVideo } from '../../../common/types';
 import VideoPreview from '../../VideoPreview/VideoPreview';
 import styles from './NextUpVideo.module.scss';
 
@@ -12,7 +13,7 @@ export default function NextUpVideo() {
           <Checkbox toggle defaultChecked />
         </div>
       </div>
-      <VideoPreview orientation='horizontal' />
+      <VideoPreview orientation='horizontal' video={MockVideo} />
       <Divider />
     </>
   );

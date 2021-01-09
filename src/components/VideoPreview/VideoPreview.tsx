@@ -1,24 +1,43 @@
 import { Image } from 'semantic-ui-react';
+import { Link } from 'react-router-dom';
+import { VideoPreviewData } from '../../common/types';
 import styles from './VideoPreview.module.scss';
 
 export interface VideoPreviewProps {
+  /** The video to be previewed. */
+  video: VideoPreviewData;
+  /** 
+   * If video information should be displayed below (vertical) or to the left (horizontal) of the
+   * thumbnail image. 
+   */
   orientation: 'horizontal' | 'vertical';
 }
 
 /** Video preview containing thumbnail image and video information. */
-const VideoPreview: React.FunctionComponent<Readonly<VideoPreviewProps>> = function (props) {
+const VideoPreview: React.FunctionComponent<Readonly<VideoPreviewProps>> = function ({ video, orientation }) {
   return (
-    <div className={`${styles.videoPreview} ${orientationStyle(props.orientation)}`}>
-      <div className={styles.thumbnail}>
-        <Image src='http://via.placeholder.com/210x118' />
-        <div className={styles.timeLabel}>
-          <span>05:22</span>
+    <div className={`${styles.videoPreview} ${orientationStyle(orientation)}`}>
+      <Link to={`/watch?v=${video.id}`}>
+        <div className={styles.thumbnail}>
+          <Image src={video.thumbnail} />
+          <div className={styles.timeLabel}>
+            <span>{video.duration}</span>
+          </div>
         </div>
-      </div>
+      </Link>
+
       <div className={styles.videoInfo}>
-        <div className={styles.videoTitle}>Video title</div>
-        <div className={styles.channelTitle}>Channel title</div>
-        <div>2.1M views &#5867; 2 days ago</div>
+        <Link to={`/watch?v=${video.id}`}>
+          <div className={styles.videoTitle}>
+            {video.videoTitle}
+          </div>
+        </Link>
+
+        <div className={styles.channelTitle}>{video.channelTitle}</div>
+
+        <Link to={`/watch?v=${video.id}`}>
+          <div>{video.viewCount} views &bull; {video.publishDate.toLocaleString()}</div>
+        </Link>
       </div>
     </div>
   );
