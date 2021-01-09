@@ -8,8 +8,12 @@ export default function App() {
   return (
     <AppLayout>
       <Switch>
-        <Route path='/watch' component={Watch} />
-        <Route path='/' component={Home} />
+        <Route path='/watch'>
+          <Watch />
+        </Route>
+        <Route path='/'>
+          <Home />
+        </Route>
       </Switch>
     </AppLayout>
   );
