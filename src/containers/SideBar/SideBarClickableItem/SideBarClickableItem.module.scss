@@ -1,6 +1,11 @@
 @use '../sidebar-common.modules';
 
 // Global specificity is to override Semantic UI
-:global(.ui.vertical .item).clickable:hover {
-  background: sidebar-common.$hover-background;
+:global(.ui.vertical .item).clickable {
+  &:hover {
+    background: sidebar-common.$hover-background;
+  }
+
+  padding-top: 0.8em;
+  padding-bottom: 0.8em;
 }
