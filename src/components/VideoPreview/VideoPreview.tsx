@@ -1,5 +1,6 @@
 import { Image } from 'semantic-ui-react';
 import { Link } from 'react-router-dom';
+import TimeAgo from 'react-timeago';
 import { VideoPreviewData } from '../../common/types';
 import styles from './VideoPreview.module.scss';
 
@@ -36,7 +37,7 @@ const VideoPreview: React.FunctionComponent<Readonly<VideoPreviewProps>> = funct
         <div className={styles.channelTitle}>{video.channelTitle}</div>
 
         <Link to={`/watch?v=${video.id}`}>
-          <div>{video.viewCount} views &bull; {video.publishDate.toLocaleString()}</div>
+          <div>{video.viewCount} views &bull; <TimeAgo date={video.publishDate} live={false} title=''/></div>
         </Link>
       </div>
     </div>
