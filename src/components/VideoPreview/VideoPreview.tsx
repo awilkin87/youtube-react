@@ -1,7 +1,7 @@
 import { Image } from 'semantic-ui-react';
 import { Link } from 'react-router-dom';
 import TimeAgo from 'react-timeago';
-import { shortenNumber } from '../../common/format-utils'
+import { shortenNumber , formatDuration } from '../../common/format-utils'
 import { VideoPreviewData } from '../../common/types';
 import styles from './VideoPreview.module.scss';
 
@@ -23,7 +23,7 @@ const VideoPreview: React.FunctionComponent<Readonly<VideoPreviewProps>> = funct
         <div className={styles.thumbnail}>
           <Image src={video.thumbnail} />
           <div className={styles.timeLabel}>
-            <span>{video.duration}</span>
+            <span>{formatDuration(video.duration)}</span>
           </div>
         </div>
       </Link>

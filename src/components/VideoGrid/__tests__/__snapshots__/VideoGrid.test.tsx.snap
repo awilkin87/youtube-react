@@ -17,7 +17,7 @@ exports[`VideoGrid Renders VideoGrid w/ divider 1`] = `
       video={
         Object {
           "channelTitle": "Channel Name",
-          "duration": "3:52",
+          "duration": "PT3M52S",
           "id": 0,
           "publishDate": 1970-01-01T00:00:00.000Z,
           "thumbnail": "http://via.placeholder.com/210x118",
@@ -32,7 +32,7 @@ exports[`VideoGrid Renders VideoGrid w/ divider 1`] = `
       video={
         Object {
           "channelTitle": "Channel Name",
-          "duration": "3:52",
+          "duration": "PT3M52S",
           "id": 0,
           "publishDate": 1970-01-01T00:00:00.000Z,
           "thumbnail": "http://via.placeholder.com/210x118",
@@ -47,7 +47,7 @@ exports[`VideoGrid Renders VideoGrid w/ divider 1`] = `
       video={
         Object {
           "channelTitle": "Channel Name",
-          "duration": "3:52",
+          "duration": "PT3M52S",
           "id": 0,
           "publishDate": 1970-01-01T00:00:00.000Z,
           "thumbnail": "http://via.placeholder.com/210x118",
@@ -62,7 +62,7 @@ exports[`VideoGrid Renders VideoGrid w/ divider 1`] = `
       video={
         Object {
           "channelTitle": "Channel Name",
-          "duration": "3:52",
+          "duration": "PT3M52S",
           "id": 0,
           "publishDate": 1970-01-01T00:00:00.000Z,
           "thumbnail": "http://via.placeholder.com/210x118",
@@ -77,7 +77,7 @@ exports[`VideoGrid Renders VideoGrid w/ divider 1`] = `
       video={
         Object {
           "channelTitle": "Channel Name",
-          "duration": "3:52",
+          "duration": "PT3M52S",
           "id": 0,
           "publishDate": 1970-01-01T00:00:00.000Z,
           "thumbnail": "http://via.placeholder.com/210x118",
@@ -92,7 +92,7 @@ exports[`VideoGrid Renders VideoGrid w/ divider 1`] = `
       video={
         Object {
           "channelTitle": "Channel Name",
-          "duration": "3:52",
+          "duration": "PT3M52S",
           "id": 0,
           "publishDate": 1970-01-01T00:00:00.000Z,
           "thumbnail": "http://via.placeholder.com/210x118",
@@ -107,7 +107,7 @@ exports[`VideoGrid Renders VideoGrid w/ divider 1`] = `
       video={
         Object {
           "channelTitle": "Channel Name",
-          "duration": "3:52",
+          "duration": "PT3M52S",
           "id": 0,
           "publishDate": 1970-01-01T00:00:00.000Z,
           "thumbnail": "http://via.placeholder.com/210x118",
@@ -122,7 +122,7 @@ exports[`VideoGrid Renders VideoGrid w/ divider 1`] = `
       video={
         Object {
           "channelTitle": "Channel Name",
-          "duration": "3:52",
+          "duration": "PT3M52S",
           "id": 0,
           "publishDate": 1970-01-01T00:00:00.000Z,
           "thumbnail": "http://via.placeholder.com/210x118",
@@ -137,7 +137,7 @@ exports[`VideoGrid Renders VideoGrid w/ divider 1`] = `
       video={
         Object {
           "channelTitle": "Channel Name",
-          "duration": "3:52",
+          "duration": "PT3M52S",
           "id": 0,
           "publishDate": 1970-01-01T00:00:00.000Z,
           "thumbnail": "http://via.placeholder.com/210x118",
@@ -152,7 +152,7 @@ exports[`VideoGrid Renders VideoGrid w/ divider 1`] = `
       video={
         Object {
           "channelTitle": "Channel Name",
-          "duration": "3:52",
+          "duration": "PT3M52S",
           "id": 0,
           "publishDate": 1970-01-01T00:00:00.000Z,
           "thumbnail": "http://via.placeholder.com/210x118",
@@ -167,7 +167,7 @@ exports[`VideoGrid Renders VideoGrid w/ divider 1`] = `
       video={
         Object {
           "channelTitle": "Channel Name",
-          "duration": "3:52",
+          "duration": "PT3M52S",
           "id": 0,
           "publishDate": 1970-01-01T00:00:00.000Z,
           "thumbnail": "http://via.placeholder.com/210x118",
@@ -182,7 +182,7 @@ exports[`VideoGrid Renders VideoGrid w/ divider 1`] = `
       video={
         Object {
           "channelTitle": "Channel Name",
-          "duration": "3:52",
+          "duration": "PT3M52S",
           "id": 0,
           "publishDate": 1970-01-01T00:00:00.000Z,
           "thumbnail": "http://via.placeholder.com/210x118",
@@ -213,7 +213,7 @@ exports[`VideoGrid Renders VideoGrid w/o divider 1`] = `
       video={
         Object {
           "channelTitle": "Channel Name",
-          "duration": "3:52",
+          "duration": "PT3M52S",
           "id": 0,
           "publishDate": 1970-01-01T00:00:00.000Z,
           "thumbnail": "http://via.placeholder.com/210x118",
@@ -228,7 +228,7 @@ exports[`VideoGrid Renders VideoGrid w/o divider 1`] = `
       video={
         Object {
           "channelTitle": "Channel Name",
-          "duration": "3:52",
+          "duration": "PT3M52S",
           "id": 0,
           "publishDate": 1970-01-01T00:00:00.000Z,
           "thumbnail": "http://via.placeholder.com/210x118",
@@ -243,7 +243,7 @@ exports[`VideoGrid Renders VideoGrid w/o divider 1`] = `
       video={
         Object {
           "channelTitle": "Channel Name",
-          "duration": "3:52",
+          "duration": "PT3M52S",
           "id": 0,
           "publishDate": 1970-01-01T00:00:00.000Z,
           "thumbnail": "http://via.placeholder.com/210x118",
@@ -258,7 +258,7 @@ exports[`VideoGrid Renders VideoGrid w/o divider 1`] = `
       video={
         Object {
           "channelTitle": "Channel Name",
-          "duration": "3:52",
+          "duration": "PT3M52S",
           "id": 0,
           "publishDate": 1970-01-01T00:00:00.000Z,
           "thumbnail": "http://via.placeholder.com/210x118",
@@ -273,7 +273,7 @@ exports[`VideoGrid Renders VideoGrid w/o divider 1`] = `
       video={
         Object {
           "channelTitle": "Channel Name",
-          "duration": "3:52",
+          "duration": "PT3M52S",
           "id": 0,
           "publishDate": 1970-01-01T00:00:00.000Z,
           "thumbnail": "http://via.placeholder.com/210x118",
@@ -288,7 +288,7 @@ exports[`VideoGrid Renders VideoGrid w/o divider 1`] = `
       video={
         Object {
           "channelTitle": "Channel Name",
-          "duration": "3:52",
+          "duration": "PT3M52S",
           "id": 0,
           "publishDate": 1970-01-01T00:00:00.000Z,
           "thumbnail": "http://via.placeholder.com/210x118",
@@ -303,7 +303,7 @@ exports[`VideoGrid Renders VideoGrid w/o divider 1`] = `
       video={
         Object {
           "channelTitle": "Channel Name",
-          "duration": "3:52",
+          "duration": "PT3M52S",
           "id": 0,
           "publishDate": 1970-01-01T00:00:00.000Z,
           "thumbnail": "http://via.placeholder.com/210x118",
@@ -318,7 +318,7 @@ exports[`VideoGrid Renders VideoGrid w/o divider 1`] = `
       video={
         Object {
           "channelTitle": "Channel Name",
-          "duration": "3:52",
+          "duration": "PT3M52S",
           "id": 0,
           "publishDate": 1970-01-01T00:00:00.000Z,
           "thumbnail": "http://via.placeholder.com/210x118",
@@ -333,7 +333,7 @@ exports[`VideoGrid Renders VideoGrid w/o divider 1`] = `
       video={
         Object {
           "channelTitle": "Channel Name",
-          "duration": "3:52",
+          "duration": "PT3M52S",
           "id": 0,
           "publishDate": 1970-01-01T00:00:00.000Z,
           "thumbnail": "http://via.placeholder.com/210x118",
@@ -348,7 +348,7 @@ exports[`VideoGrid Renders VideoGrid w/o divider 1`] = `
       video={
         Object {
           "channelTitle": "Channel Name",
-          "duration": "3:52",
+          "duration": "PT3M52S",
           "id": 0,
           "publishDate": 1970-01-01T00:00:00.000Z,
           "thumbnail": "http://via.placeholder.com/210x118",
@@ -363,7 +363,7 @@ exports[`VideoGrid Renders VideoGrid w/o divider 1`] = `
       video={
         Object {
           "channelTitle": "Channel Name",
-          "duration": "3:52",
+          "duration": "PT3M52S",
           "id": 0,
           "publishDate": 1970-01-01T00:00:00.000Z,
           "thumbnail": "http://via.placeholder.com/210x118",
@@ -378,7 +378,7 @@ exports[`VideoGrid Renders VideoGrid w/o divider 1`] = `
       video={
         Object {
           "channelTitle": "Channel Name",
-          "duration": "3:52",
+          "duration": "PT3M52S",
           "id": 0,
           "publishDate": 1970-01-01T00:00:00.000Z,
           "thumbnail": "http://via.placeholder.com/210x118",

@@ -11,7 +11,7 @@ export interface VideoPreviewData {
   thumbnail: string;
   /** Number times the video has been watched. */
   viewCount: number;
-  /** Video duration. */
+  /** Video duration in ISO8601 format. */
   duration: string;
   /** Date/time the video was published. */
   publishDate: Date;
@@ -23,6 +23,6 @@ export const MockVideo: VideoPreviewData = {
   channelTitle: 'Channel Name',
   thumbnail: 'http://via.placeholder.com/210x118',
   viewCount: 56,
-  duration: '3:52',
+  duration: 'PT3M52S',
   publishDate: new Date(0)
 }
