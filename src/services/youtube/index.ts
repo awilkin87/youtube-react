@@ -112,7 +112,7 @@ function mapToVideoPreview(response: gapi.client.youtube.VideoListResponse): Vid
       const duration = item.contentDetails?.duration;
       const publishDate = new Date(snippet?.publishedAt ? Date.parse(snippet?.publishedAt) : 0);
 
-      return {
+      const preview: VideoPreviewData = {
         id: item.id,
         videoTitle: snippet?.localized?.title || snippet?.title || '! Error getting title',
         channelTitle: snippet?.channelTitle || '! Error geting channel',
@@ -121,5 +121,7 @@ function mapToVideoPreview(response: gapi.client.youtube.VideoListResponse): Vid
         duration: duration || '0:00',
         publishDate
       }
+
+      return preview;
    });
 }
