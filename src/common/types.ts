@@ -17,6 +17,10 @@ export interface VideoPreviewData {
   publishDate: Date;
 }
 
+/** Map of video category ids to category names. */
+export type VideoCategories = Record<string, string>
+
+
 export const MockVideo: VideoPreviewData = {
   id: 0,
   videoTitle: 'Video Title',
