@@ -1,13 +1,13 @@
 import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { RootState, selectVideoCategories } from '../../../store/rootReducer';
+import { selectVideoCategories } from '../../../store/rootReducer';
 import { videoCategoriesRequest } from '../../../store/VideoCategories/actions';
 import Recommendations from '../Recommendations/Recommendations';
 import styles from './HomeContent.module.scss';
 
 /** Home content screen, containing suggested videos. */
 export default function Home() {
-  const videoCategories = useSelector((state: RootState) => selectVideoCategories(state));
+  const videoCategories = useSelector(selectVideoCategories);
   const dispatch = useDispatch();
 
   useEffect(() => {
@@ -19,7 +19,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <div className={styles.responsiveVideoGridContainer} >
-        <Recommendations title='Trending' />
+        <Recommendations />
       </div>
     </div>
   );

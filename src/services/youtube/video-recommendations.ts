@@ -15,8 +15,8 @@ export interface VideoPreviewResponse {
  * @param loadDescription if the video description should be included in the fetch
  * @param nextPageToken the token for obtaining the next page of videos on subsequent fetches
  */
-export async function fetchPopularVideos(amount: number = 12, loadDescription: boolean = false,
-    nextPageToken?: string): Promise<VideoPreviewResponse> {
+export async function fetchPopularVideos(amount: number = 12, categoryId?: string,
+    loadDescription: boolean = false, nextPageToken?: string): Promise<VideoPreviewResponse> {
   const client = await getYoutubClient();
 
   let fields = '                  \
@@ -44,6 +44,7 @@ export async function fetchPopularVideos(amount: number = 12, loadDescription: b
   const response = await client.videos.list({
     part: 'snippet,contentDetails,statistics',
     chart: 'mostPopular',
+    videoCategoryId: categoryId,
     regionCode: 'US',
     maxResults: amount,
     pageToken: nextPageToken,
@@ -72,7 +73,6 @@ function mapToVideoPreview(response: gapi.client.youtube.VideoListResponse): Vid
       }
       return true;
     }).map(item => {
-
       const snippet = item.snippet;
       const thumbnail = snippet?.thumbnails?.medium?.url;
       const duration = item.contentDetails?.duration;
@@ -89,5 +89,5 @@ function mapToVideoPreview(response: gapi.client.youtube.VideoListResponse): Vid
       }
 
       return preview;
-   });
+    });
 }
