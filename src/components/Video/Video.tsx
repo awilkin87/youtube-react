@@ -8,7 +8,7 @@ export interface VideoProps {
 
 const Video: React.FunctionComponent<Readonly<VideoProps>> = function (props) {
   // TODO Enable autoplaying after development
-  const embedUrl = `${BASE_EMBED_URL}${props.id}?autoplay=0&modestbranding=1`;
+  const embedUrl = `${BASE_EMBED_URL}${props.id}?autoplay=1&modestbranding=1`;
   return (
     <div className={styles.videoContainer}>
       <div className={styles.video}>

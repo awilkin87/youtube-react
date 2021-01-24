@@ -12,7 +12,7 @@ exports[`Renders VideoPreview 1`] = `
       allowFullScreen={true}
       className="videoPlayer"
       frameBorder="0"
-      src="https://www.youtube.com/embed/Test123?autoplay=0&modestbranding=1"
+      src="https://www.youtube.com/embed/Test123?autoplay=1&modestbranding=1"
       title="video"
     />
   </div>
