@@ -12,7 +12,7 @@ export interface RecommendationsProps {
   videoCount?: number;
 }
 
-const Recommendations: React.FC<Readonly<RecommendationsProps>> = function ({ categoryId, videoCount = 12 }) {
+const Recommendations = function ({ categoryId, videoCount = 12 }: Readonly<RecommendationsProps>) {
   const [videos, setVideos] = useState<VideoPreviewData[]>([]);
 
   const videoCategories = useSelector(selectVideoCategories);
